@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jautodoc-preferences>
+    <options>
+        <completeExistingJavadoc>true</completeExistingJavadoc>
+        <keepExistingJavadoc>false</keepExistingJavadoc>
+        <replaceExistingJavadoc>false</replaceExistingJavadoc>
+        <includePublic>true</includePublic>
+        <includeProtected>true</includeProtected>
+        <includePackage>true</includePackage>
+        <includePrivate>true</includePrivate>
+        <includeTypes>true</includeTypes>
+        <includeFields>true</includeFields>
+        <includeMethods>true</includeMethods>
+        <getterSetterOnly>false</getterSetterOnly>
+        <excludeGetterSetter>false</excludeGetterSetter>
+        <addTodoForAutodoc>true</addTodoForAutodoc>
+        <createDummyComment>true</createDummyComment>
+        <singleLineComment>true</singleLineComment>
+        <useEclipseFormatter>true</useEclipseFormatter>
+        <getterSetterFromField>true</getterSetterFromField>
+        <includeSubPackages>true</includeSubPackages>
+        <getterSetterFromFieldFirst>true</getterSetterFromFieldFirst>
+        <getterSetterFromFieldReplace>false</getterSetterFromFieldReplace>
+        <addHeader>true</addHeader>
+        <replaceHeader>false</replaceHeader>
+        <multiCommentHeader>false</multiCommentHeader>
+        <usePackageInfo>true</usePackageInfo>
+    </options>
+    <tagOrders>
+        <tagOrder>@author</tagOrder>
+        <tagOrder>@version</tagOrder>
+        <tagOrder>@param</tagOrder>
+        <tagOrder>@return</tagOrder>
+        <tagOrder>@throws</tagOrder>
+        <tagOrder>@see</tagOrder>
+        <tagOrder>@since</tagOrder>
+        <tagOrder>@serial</tagOrder>
+        <tagOrder>@serialField</tagOrder>
+        <tagOrder>@serialData</tagOrder>
+        <tagOrder>@deprecated</tagOrder>
+    </tagOrders>
+    <properties/>
+    <replacements>
+        <replacement mode="0" scope="1" shortcut="get">Gets the</replacement>
+        <replacement mode="0" scope="1" shortcut="set">Sets the</replacement>
+        <replacement mode="0" scope="1" shortcut="add">Adds the</replacement>
+        <replacement mode="0" scope="1" shortcut="edit">Edits the</replacement>
+        <replacement mode="0" scope="1" shortcut="remove">Removes the</replacement>
+        <replacement mode="0" scope="1" shortcut="init">Inits the</replacement>
+        <replacement mode="0" scope="1" shortcut="parse">Parses the</replacement>
+        <replacement mode="0" scope="1" shortcut="create">Creates the</replacement>
+        <replacement mode="0" scope="1" shortcut="build">Builds the</replacement>
+        <replacement mode="0" scope="1" shortcut="is">Checks if is</replacement>
+        <replacement mode="0" scope="1" shortcut="print">Prints the</replacement>
+        <replacement mode="0" scope="1" shortcut="has">Checks for</replacement>
+    </replacements>
+    <templates/>
+    <headerText>/**
+ * Get more info at : www.jrebirth.org .
+ * Copyright JRebirth.org © 2011-2014
+ * Contact : sebastien.bordes@jrebirth.org
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */</headerText>
+    <packageDocText>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;
+  Provides...
+&lt;/body&gt;
+&lt;/html&gt;</packageDocText>
+    <packageInfoText>/**
+ * Provides...
+ */
+package ${package_name};</packageInfoText>
+</jautodoc-preferences>
